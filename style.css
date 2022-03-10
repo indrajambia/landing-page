@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  box-sizing: border-box;
+  min-height: 2000px;
+  background-color: #dd8603;
+}
+nav {
+  background-color: white;
+  font-weight: 600;
+}
+
+ul li {
+  padding-right: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 30px;
+  color: black;
+}
+
+li:hover {
+  background-color: #dd8603;
+}
+a:hover {
+  color: #eeeeee !important;
+}
+.jumbotron {
+  padding-top: 6rem;
+  height: 100vh;
+  position: relative;
+  margin: 50px auto;
+}
+h1,
+p {
+  font-weight: 1000;
+  color: #eeeeee;
+  padding-top: 1px;
+  margin: 10px;
+}
+p {
+  padding-bottom: 50px;
+}
+
+#about {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+h2 {
+  max-width: 50%;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid#eeeeee;
+  color: #eeeeee;
+}
+.card-body h5,
+p {
+  color: black;
+}
+.card-body a {
+  background-color: #acacac;
+  color: rgb(238, 229, 229);
+}
+.card-body a:hover {
+  background-color: #eeeeee;
+  color: #dd8603 !important;
+}
+
+footer,
+p {
+  background-color: #dd8603;
+}
+a {
+  text-decoration: none;
+}
+
+/* Media Query ketika dibuka di mobile */
+@media (max-width: 576px) {
+  .btn-github {
+    width: 90%;
+  }
+
+  .navbar {
+    background-color: black !important;
+  }
+}
